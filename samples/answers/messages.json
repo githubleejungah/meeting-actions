@@ -1,0 +1,15 @@
+{
+  "_note": "정답 이슈. risk는 사람이 확정할 값의 기준(PM 업무 샘플의 A/B/C). missing은 원문에 없어 '미정' + 되물을 질문이 나와야 하는 칸. 대장 번호는 week1(M01 M02 M04 M05 M06 M09) → I-001~006, week2(M03 M07 M08 M10 M11 M12) → I-007~012 순으로 반영했을 때 기준.",
+  "M01": {"ledger": "I-001", "route": "농가", "risk": "A", "missing": [], "pii": false, "dup": [], "safety_word": "사람"},
+  "M02": {"ledger": "I-002", "route": "대리점", "risk": "A", "missing": [], "pii": false, "dup": [], "safety_word": "전복"},
+  "M04": {"ledger": "I-003", "route": "농가", "risk": "B", "missing": ["condition", "expected"], "pii": false, "dup": [], "safety_word": null},
+  "M05": {"ledger": "I-004", "route": "농가", "risk": "B", "missing": [], "pii": true, "dup": [], "safety_word": null},
+  "M06": {"ledger": "I-005", "route": "대리점", "risk": "B", "missing": [], "pii": false, "dup": [], "safety_word": null},
+  "M09": {"ledger": "I-006", "route": "농가", "risk": "C", "missing": [], "pii": false, "dup": [], "safety_word": null},
+  "M03": {"ledger": "I-007", "route": "현장", "risk": "A", "missing": ["condition", "expected"], "pii": false, "dup": [], "safety_word": "연기"},
+  "M07": {"ledger": "I-008", "route": "현장", "risk": "B", "missing": [], "pii": false, "dup": [], "safety_word": null},
+  "M08": {"ledger": "I-009", "route": "농가", "risk": "B", "missing": [], "pii": false, "dup": ["I-003"], "safety_word": null},
+  "M10": {"ledger": "I-010", "route": "대리점", "risk": "C", "missing": [], "pii": false, "dup": [], "safety_word": null},
+  "M11": {"ledger": "I-011", "route": "현장", "risk": "C", "missing": ["condition"], "pii": false, "dup": [], "safety_word": null},
+  "M12": {"ledger": "I-012", "route": "농가", "risk": "C", "missing": [], "pii": false, "dup": [], "safety_word": null}
+}

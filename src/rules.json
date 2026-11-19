@@ -1,0 +1,17 @@
+{
+  "safety_words": ["사람", "충돌", "전복", "비상정지", "연기"],
+  "risk_order": ["A", "B", "C", ""],
+  "risk_labels": {"A": "안전 · 작업 중단", "B": "기능 저하 · 시즌 영향", "C": "불편 · 표시 오류"},
+  "delay_days": 7,
+  "todo_status": ["예정", "진행", "완료", "보류"],
+  "todo_closed": "완료",
+  "issue_status": ["접수", "확인 중", "수정 중", "수정 완료", "추후 수정", "종결"],
+  "issue_closed": "종결",
+  "verdicts": ["반영", "조건부 반영", "보류"],
+  "routes": ["농가", "대리점", "현장", "미정"],
+  "max_questions": 3,
+  "max_input_bytes": 125000,
+  "unknown": "미정",
+  "human_fields": ["status", "risk", "verdict", "action", "delay_reason", "closed", "note"],
+  "name_stopwords": ["고객", "기사", "사장", "대표", "농가", "대리점", "현장", "담당", "선생", "팀장", "과장", "부장", "직원", "작업자", "아드", "형", "누나", "언니", "어머", "아버", "할머", "할아버"]
+}
